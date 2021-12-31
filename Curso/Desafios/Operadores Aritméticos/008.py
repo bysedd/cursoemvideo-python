@@ -1,0 +1,10 @@
+metros = int(input('Uma distância em metros: '))
+
+print('A medida de \033[1;30m{}m\033[m corresponde a:'.format(metros))
+print()
+print('\033[1;31m{}km\033[m'.format(metros / 1000))
+print('\033[1;32m{}hm\033[m'.format(metros / 100))
+print('\033[1;33m{}dam\033[m'.format(metros / 10))
+print('\033[1;34m{}dm\033[m'.format(metros * 10))
+print('\033[1;35m{}cm\033[m'.format(metros * 100))
+print('\033[1;36m{}mm\033[m'.format(metros * 1000))
