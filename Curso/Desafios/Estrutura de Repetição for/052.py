@@ -11,7 +11,7 @@ for c in range(1, num + 1):
     print('{}'.format(c), end=' ')
 
 print()
-print('\033[mO número \033[1;30m{}\033[m foi divisível \033[1;30m{}\033[m vezes.'.format(num, tot))
+print('\033[mO número \033[1;33m{}\033[m pode ser dividido \033[1;33m{}\033[m vezes.'.format(num, tot))
 
 if tot > 2:
     print('E por isso ele \033[1;31mNÃO É PRIMO!\033[m')
